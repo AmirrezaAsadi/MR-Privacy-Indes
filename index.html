@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Reality Privacy Self-Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mixed Reality Privacy Self-Assessment</h1>
+        <form id="privacy-checklist">
+            <!-- Hardware Assessment Section -->
+            <h2>Hardware Assessment</h2>
+            <div class="question">
+                <label for="q1">Are the hardware components stored securely when not in use?</label>
+                <select id="q1" name="q1">
+                    <option value="0">Not Implemented</option>
+                    <option value="1">Partially Implemented</option>
+                    <option value="2">Mostly Implemented</option>
+                    <option value="3">Fully Implemented</option>
+                </select>
+            </div>
+            <!-- Add more questions here following the same structure -->
+
+            <!-- Software Assessment Section -->
+            <h2>Software Assessment</h2>
+            <!-- Add software assessment questions here -->
+
+            <!-- User Experience and Transparency Section -->
+            <h2>User Experience and Transparency</h2>
+            <!-- Add user experience questions here -->
+
+            <!-- Compliance and Best Practices Section -->
+            <h2>Compliance and Best Practices</h2>
+            <!-- Add compliance questions here -->
+
+            <button type="button" onclick="calculateScore()">Calculate Score</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
